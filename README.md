@@ -53,7 +53,7 @@
 
 <p align="justify"> MitoPhy is a visual interface written in python 3 for Unix computers dedicated to sequence management and molecular phylogenetics. The purpose of MitoPhy is to provide a quick and efficient way to build phylogenies de novo. I created the general idea for MitoPhy during my Master's internship in 2022. I was asked to build a large phylogeny using mainly mitochondrial genes for more than 350 species. No sequences were already available in my lab, so I relied on using NCBI's GENBANK. However the task was a bit too overwhelming for me and before this internship, I had no genuine idea of how Genbank works. I asked myself several questions such as: what is a "good" sequence: is it a long one, a well-attributed one, or a contamination-free one? To make it simple, all of the above. But since my time was limited, I could not simply examine each possible gene for each species more than 5200 times and look for these criteria. Moreover, with such a large number, human errors can happen easily. So I decided to build a pipeline with several programs and scripts, making this task easier. Six months after and the first version is complete, with numerous options included and an in-built visual interface. </p>
 
-Many programs used in MitoPhy were not developed by me, so please cite each of them when used. If you have any questions/requests feel free to ask me at my Github.
+Many programs used in MitoPhy were not developed by me such as muscle (Edgar, 2004), IQ-TREE (Minh et al., 2020) as well as python pacakges : module Bio (Cock et al., 2009), pandas (McKinney, W. et al., 2010), so please cite each of them when using the associated function. If you have any questions/requests feel free to ask me at my Github.
 
 ## 2 Installation
 
@@ -325,3 +325,11 @@ Select a substitution model for your sequence, this option is overwritten when u
 ```
 
 # Reference
+
+Cock, P. J. Antao, T. Chang, J. T. Chapman, B. A. Cox, C. J. Dalke, A. De Hoon, M. J. 2009. Biopython: freely available Python tools for computational molecular biology and bioinformatics. *Bioinformatics*. 25(11):1422-1423.
+
+Edgar, R.C. 2004. MUSCLE: a multiple sequence alignment method with reduced time and space complexity. *BMC Bioinformatics*. 5:113 https://doi.org/10.1186/1471-2105-5-113
+
+Minh, B. Q. Schmidt, H. A. Chernomor, O. Schrempf, D. Woodhams, M. D. von Haeseler, A. Lanfear, R. 2020. IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era. *Molecular biology and evolution*. 37(5):1530–1534. https://doi.org/10.1093/molbev/msaa015  
+
+McKinney, W., 2010. Data structures for statistical computing in python. In Proceedings of the 9th Python in Science Conference. pp. 51–56.
