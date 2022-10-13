@@ -51,7 +51,7 @@
 
 ## 1 Introduction
 
-MitoPhy is a visual interface written in python 3 for Unix computers dedicated to sequence management and molecular phylogenetics. The purpose of MitoPhy is to provide a quick and efficient way to build phylogenies de novo. I created the general idea for MitoPhy during my Master's internship in 2022. I was asked to build a large phylogeny using mainly mitochondrial genes for more than 350 species. No sequences were already available in my lab, so I relied on using NCBI's GENBANK. However the task was a bit too overwhelming for me and before this internship, I had no genuine idea of how Genbank works. I asked myself several questions such as: what is a "good" sequence: is it a long one, a well-attributed one, or a contamination-free one? To make it simple, all of the above. But since my time was limited, I could not simply examine each possible gene for each species more than 5200 times and look for these criteria. Moreover, with such a large number, human errors can happen easily. So I decided to build a pipeline with several programs and scripts, making this task easier. Six months after and the first version is complete, with numerous options included and an in-built visual interface. 
+<p align="justify"> MitoPhy is a visual interface written in python 3 for Unix computers dedicated to sequence management and molecular phylogenetics. The purpose of MitoPhy is to provide a quick and efficient way to build phylogenies de novo. I created the general idea for MitoPhy during my Master's internship in 2022. I was asked to build a large phylogeny using mainly mitochondrial genes for more than 350 species. No sequences were already available in my lab, so I relied on using NCBI's GENBANK. However the task was a bit too overwhelming for me and before this internship, I had no genuine idea of how Genbank works. I asked myself several questions such as: what is a "good" sequence: is it a long one, a well-attributed one, or a contamination-free one? To make it simple, all of the above. But since my time was limited, I could not simply examine each possible gene for each species more than 5200 times and look for these criteria. Moreover, with such a large number, human errors can happen easily. So I decided to build a pipeline with several programs and scripts, making this task easier. Six months after and the first version is complete, with numerous options included and an in-built visual interface. </p>
 
 Many programs used in MitoPhy were not developed by me, so please cite each of them when used. If you have any questions/requests feel free to ask me at my Github.
 
@@ -71,7 +71,7 @@ In this chapter, we will address the different download options for sequences, u
 - Mandatory step
 ```
 
-This panel allows the user to enter a taxa name (at the moment the binomial species name, ie: Genus species format). This panel is quite straightforward as you have only to write the species name and hit the button confirm next to hit. Keep in mind that this method is useful when you have only a few species as you will have to hit the search button each time you change the species name to download it. 
+<p align="justify"> This panel allows the user to enter a taxa name (at the moment the binomial species name, ie: Genus species format). This panel is quite straightforward as you have only to write the species name and hit the button confirm next to hit. Keep in mind that this method is useful when you have only a few species as you will have to hit the search button each time you change the species name to download it. </p>
 
 #### 3.1.2 Select taxa list
 
@@ -79,7 +79,7 @@ This panel allows the user to enter a taxa name (at the moment the binomial spec
 - Mandatory step
 ```
 
-This panel allows the user to enter a .txt file as input. This file can have more than one species, each written on a different line. This download method is far superior to the previous, especially with numerous species. 
+<p align="justify"> This panel allows the user to enter a .txt file as input. This file can have more than one species, each written on a different line. This download method is far superior to the previous, especially with numerous species. </p>
 
 ### 3.2 Save, load, and convert
 
@@ -193,7 +193,7 @@ With the directory selected in [4.1.1](#411Select-the-operating-directory), alig
 - Mandatory step
 ```
 
-Merge all the .fasta files from the main directory by species names. Also creates two partition files in .txt format, which could be used in the last chapter.
+Merge all the .fasta files from the main directory by species names. Also creates two partition files in .txt format, which could be used in the [last chapter](#5-Phylogeny).
 
 #### 4.2.4 Alignement info
 
