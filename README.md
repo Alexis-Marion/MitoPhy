@@ -26,7 +26,7 @@
 	- [4.2 Alignment parameters](#42-Alignment-parameters)
     - [4.2.1 Select the operating directory](#421-Select-the-operating-directory)
     - [4.2.2 Align](#422-Align)
-    - [4.2.3 Merge](#423Merge)
+    - [4.2.3 Merge](#423-Merge)
     - [4.2.4 Alignement info](#424-Alignement-info)
 - [5 Phylogeny](#5-Phylogeny)
 	- [5.1 General options](#51-General-options)
@@ -117,31 +117,31 @@ With the directory selected in 5.1.1, align all the files in each subdirectory w
 Merge all the .fasta files from the main directory by species names. Also creates two partition files in .txt format, which could be used in the last chapter.
 #### 4.2.4 Alignement info
 
-5 Phylogeny
-5.1 General options
-5.1.1 Select input sequence
-5.1.2 Select outgroup
-5.1.3 Select bootstrap value
-5.1.4 Select a constraint tree
-5.1.5 Save in directory
-5.2 Distance and parsimony
-5.2.1 Select method
+## 5 Phylogeny
+### 5.1 General options
+#### 5.1.1 Select input sequence
+#### 5.1.2 Select outgroup
+#### 5.1.3 Select bootstrap value
+#### 5.1.4 Select a constraint tree
+#### 5.1.5 Save in directory
+### 5.2 Distance and parsimony
+#### 5.2.1 Select method
 • UPGMA
 • Neighbour Joining (NJ)
 • Parsimony
-5.2.2 Select output format
+#### 5.2.2 Select output format
 • Newick
 • nexus
 • nexml
 • phyloxml
-5.2.3 Select consensus method
+#### 5.2.3 Select consensus method
 • Strict consensus methods only show relationships that are unambiguously supported by the data for all the trees
 • Majority consensus methods only show relationships that are unambiguously supported by the data the majority of the trees
 • Adams consensus methods, as described in Adams (1972)
-5.2.4 Build distance or parsimony tree
+#### 5.2.4 Build distance or parsimony tree
 This panel allows the user to build a distance-based tree with maximum parsimony using all the options in sections 5.1 and 5.2.
-5.3 Maximum likelihood
-5.3.1 Select substitution model
+### 5.3 Maximum likelihood
+#### 5.3.1 Select substitution model
 Select a substitution model for your sequence, this option is overwritten when using partition files.
 • Jukes and Cantor 69 (JC69)
 • Felsenstein 81 (F81)
@@ -154,12 +154,12 @@ Select a substitution model for your sequence, this option is overwritten when u
 • Symmetric model (SYM)
 • General time revesible (GTR)
 • Model finder (MPF)
-5.3.2 Use gamma distribution
-5.3.3 Use invariable sites
-5.3.4 Select the partition file
-5.3.5 Select bootstrap type
+#### 5.3.2 Use gamma distribution
+#### 5.3.3 Use invariable sites
+#### 5.3.4 Select the partition file
+#### 5.3.5 Select bootstrap type
 • Bootstrap
 • Ultrafastbootstrap
-5.3.6 Build maximum likelihood tree using IQTREE
+#### 5.3.6 Build maximum likelihood tree using IQTREE
 
 # Reference
