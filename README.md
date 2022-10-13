@@ -95,7 +95,7 @@ This panel allows the user to enter an output directory for the downloaded file.
 #### 3.2.2 Convert alignment file
 
 ```diff
-- Optional step
++ Optional step
 ```
 
 This panel allows the user to enter any sequence file and convert it from one of the following formats to another. 
@@ -117,7 +117,7 @@ This panel allows the user to enter any sequence file and convert it from one of
 #### 3.3.1 Only RefSeq sequences
 
 ```diff
-- Optional step
++ Optional step
 ```
 
 This option allows the user to be looking only for RefSeq sequences. Refseq sequences are of high quality but are less represented than any non-RefSeq sequence, usually, each RefSeq sequence contains the whole
@@ -126,7 +126,7 @@ mitogenome.
 #### 3.3.2 Date range
 
 ```diff
-- Optional step
++ Optional step
 ```
 
 This option allows the user to enter a date interval for the downloaded sequence. As such if one writes 2014/08/03 and 2022/03/01, the downloaded sequence cannot be older than the third of august 2014 but are only younger than the first of march 2022. The format must be YYYY/MM/DD and both of the panels must be completed in a valid format. This step is optional, keep the panel blank if you do not want any date
@@ -135,7 +135,7 @@ constraints.
 #### 3.3.3 Sequence range
 
 ```diff
-- Optional step
++ Optional step
 ```
 
 This option allows the user to enter a sequence length interval in which the downloaded sequence cannot be smaller or bigger. Same as "Date range”, you must complete both of the panels if you want a constraint. This step is optional, keep the panel blank if you do not want any sequence length constraint.
@@ -155,7 +155,7 @@ In this chapter, I will show how to convert and align the sequence obtained in c
 ### 4.1 Sequence conversion
 
 ```diff
-- Optional step
++ Optional step
 ```
 
 #### 4.1.1 Select the operating directory
@@ -223,7 +223,7 @@ Merge all the .fasta files from the main directory by species names. Also create
 #### 4.2.4 Alignement info
 
 ```diff
-- Optional step
++ Optional step
 ```
 
 ## 5 Phylogeny
@@ -245,13 +245,13 @@ Merge all the .fasta files from the main directory by species names. Also create
 #### 5.1.3 Select bootstrap value
 
 ```diff
-- Optional step
++ Optional step
 ```
 
 #### 5.1.4 Select a constraint tree
 
 ```diff
-- Optional step
++ Optional step
 ```
 
 #### 5.1.5 Save in directory
@@ -277,7 +277,7 @@ Merge all the .fasta files from the main directory by species names. Also create
 #### 5.2.2 Select output format
 
 ```diff
-- Optional step
++ Optional step
 ```
 
 • Newick
@@ -291,7 +291,7 @@ Merge all the .fasta files from the main directory by species names. Also create
 #### 5.2.3 Select consensus method
 
 ```diff
-- Optional step
++ Optional step
 ```
 
 • Strict consensus methods only show relationships that are unambiguously supported by the data for all the trees
@@ -342,19 +342,19 @@ Select a substitution model for your sequence, this option is overwritten when u
 #### 5.3.2 Use gamma distribution
 
 ```diff
-- Optional step
++ Optional step
 ```
 
 #### 5.3.3 Use invariable sites
 
 ```diff
-- Optional step
++ Optional step
 ```
 
 #### 5.3.4 Select the partition file
 
 ```diff
-- Optional step
++ Optional step
 ```
 
 #### 5.3.5 Select bootstrap type
