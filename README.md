@@ -115,15 +115,15 @@ This option allows the user to be looking only for RefSeq sequences. Refseq sequ
 
 #### 3.3.2 Date range
 
-This option allows the user to enter a date interval for the downloaded sequence. As such if one writes 2014/08/03 and 2022/03/01, the downloaded sequence cannot be older than the third of august 2014 but are only younger than the first of march 2022. The format must be YYYY/MM/DD and both of the panels must be completed in a valid format. This step is optional, keep the panel blank if you do not want any date constraints.
+<p align="justify"> This option allows the user to enter a date interval for the downloaded sequence. As such if one writes 2014/08/03 and 2022/03/01, the downloaded sequence cannot be older than the third of august 2014 but are only younger than the first of march 2022. The format must be *YYYY/MM/DD* and both of the panels must be completed in a valid format. This step is optional, keep the panel blank if you do not want any date constraints. </p>
 
 #### 3.3.3 Sequence range
 
-This option allows the user to enter a sequence length interval in which the downloaded sequence cannot be smaller or bigger. Same as "Date range”, you must complete both of the panels if you want a constraint. This step is optional, keep the panel blank if you do not want any sequence length constraint.
+<p align="justify"> This option allows the user to enter a sequence length interval in which the downloaded sequence cannot be smaller or bigger. Same as "Date range”, you must complete both of the panels if you want a constraint. This step is optional, keep the panel blank if you do not want any sequence length constraint. </p>
 
 ### 3.4 Research bar
 
-At the moment, the research bar submenu only contains one button: the research button. Taking into account all of the previous options and input, the research button will perform research on NCBI's Genbank database. For each species provided, a folder will be created along with a .gb (GenBank format) containing many sequences for the species (capped at 100 to not overload the NCBI's servers).
+<p align="justify"> At the moment, the research bar submenu only contains one button: the research button. Taking into account all of the previous options and input, the research button will perform research on NCBI's Genbank database. For each species provided, a folder will be created along with a .gb (GenBank format) containing many sequences for the species (capped at 100 to not overload the NCBI's servers). </p>
 
 ## 4 Sequence manipulation
 
@@ -153,7 +153,7 @@ Similar to [3.2.1](#321-Save-in-directory), the user can enter a path to an outp
 - Mandatory step
 ```
 
-In this panel, all .gb files in the operating directory will be transformed into .fasta files and transferred to new subdirectories for each gene. The read direction is 5’ - 3’ (+).
+In this panel, all .gb files in the operating directory will be transformed into .fasta files and transferred to new subdirectories for each gene. The read direction is *5*’ - *3*’ (+).
 
 #### 4.1.4 Consensus
 
@@ -163,11 +163,11 @@ In this panel, all .gb files in the operating directory will be transformed into
 
 In this panel, in each subdirectory defined in [4.1.3](#413-Turn-into-fasta), all sequences will be transferred to the new output directory by genes. Here three options are present :
 
-• 1 You have no sequences in the directory, as such a placeholder sequence, containing only "-" is created and moved.
+• You have **no** sequences in the directory, as such a placeholder sequence, containing only "-" is created and moved.
 
-• 2 You have only one sequence, no consensus is made and the sequence is moved to the output directory unchanged.
+• You have only **one** sequence, no consensus is made and the sequence is moved to the output directory unchanged.
 
-• 3 You have more than two sequences and a majority of the sequence is made and moved to the output directory. Ambiguous sites are "X”.
+• You have more than **two** sequences and a majority of the sequence is made and moved to the output directory. Ambiguous sites are "X”.
 
 ### 4.2 Alignment parameters
 
@@ -253,11 +253,11 @@ Merge all the .fasta files from the main directory by species names. Also create
 #### 5.2.3 Select consensus method
 
 
-• Strict consensus methods only show relationships that are unambiguously supported by the data for all the trees
+• **Strict consensus** methods only show relationships that are unambiguously supported by the data for all the trees
 
-• Majority consensus methods only show relationships that are unambiguously supported by the data the majority of the trees
+• **Majority consensus** methods only show relationships that are unambiguously supported by the data the majority of the trees
 
-• Adams consensus methods, as described in Adams (1972)
+• **Adams consensus** methods, as described in Adams (1972)
 
 #### 5.2.4 Build distance or parsimony tree
 
