@@ -1,4 +1,4 @@
-# MitoPhy
+# MitoPhy 1.0
 
 ## Contents
 
@@ -71,7 +71,7 @@ In this chapter, we will address the different download options for sequences, u
 - Mandatory step
 ```
 
-<p align="justify"> This panel allows the user to enter a taxa name (at the moment the binomial species name, ie: Genus species format). This panel is quite straightforward as you have only to write the species name and hit the button confirm next to hit. Keep in mind that this method is useful when you have only a few species as you will have to hit the search button each time you change the species name to download it. </p>
+<p align="justify"> This panel allows the user to enter a taxa name (at the moment the binomial species name, ie: *Genus species* format). This panel is quite straightforward as you have only to write the species name and hit the button confirm next to hit. Keep in mind that this method is useful when you have only a few species as you will have to hit the search button each time you change the species name to download it. </p>
 
 #### 3.1.2 Select taxa list
 
