@@ -15,7 +15,7 @@
 	- [3.3 Sequence option](#33-Sequence-option)
 		- [3.3.1 Only RefSeq sequences](#331-Only-RefSeq-sequences)
 		- [3.3.2 Date range](#332-Date-range) 
-    - [3.3.3 Sequence range](#333-Sequence-range)
+    		- [3.3.3 Sequence range](#333-Sequence-range)
   - [3.4 Research bar](#34-Research-bar)
 - [4 Sequence manipulation](#4-Sequence-manipulation)
 	- [4.1 Sequence conversion](#41-Sequence-conversion)
