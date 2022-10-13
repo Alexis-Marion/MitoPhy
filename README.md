@@ -115,7 +115,7 @@ This option allows the user to be looking only for RefSeq sequences. Refseq sequ
 
 #### 3.3.2 Date range
 
-<p align="justify"> This option allows the user to enter a date interval for the downloaded sequence. As such if one writes 2014/08/03 and 2022/03/01, the downloaded sequence cannot be older than the third of august 2014 but are only younger than the first of march 2022. The format must be *YYYY/MM/DD* and both of the panels must be completed in a valid format. This step is optional, keep the panel blank if you do not want any date constraints. </p>
+<p align="justify"> This option allows the user to enter a date interval for the downloaded sequence. As such if one writes 2014/08/03 and 2022/03/01, the downloaded sequence cannot be older than the third of august 2014 but are only younger than the first of march 2022. The format must be YYYY/MM/DD and both of the panels must be completed in a valid format. This step is optional, keep the panel blank if you do not want any date constraints. </p>
 
 #### 3.3.3 Sequence range
 
