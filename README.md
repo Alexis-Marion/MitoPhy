@@ -55,6 +55,8 @@ MitoPhy is a visual interface written in python 3 for Unix computers dedicated t
 
 Many programs used in MitoPhy were not developed by me, so please cite each of them when used. If you have any questions/requests feel free to ask me at my Github.
 
+<span style="color:blue">some *blue* text</span>.
+
 ## 2 Installation
 
 MitoPhy is a standalone program, as such, no prerequisites are needed.
