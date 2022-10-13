@@ -67,18 +67,18 @@ In this chapter, we will address the different download options for sequences, u
 
 #### 3.1.1 Write taxa name
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 This panel allows the user to enter a taxa name (at the moment the binomial species name, ie: Genus species format). This panel is quite straightforward as you have only to write the species name and hit the
 button confirm next to hit. Keep in mind that this method is useful when you have only a few species as you will have to hit the search button each time you change the species name to download it. 
 
 #### 3.1.2 Select taxa list
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 This panel allows the user to enter a .txt file as input. This file can have more than one species, each written on a different line. This download method is far superior to the previous, especially with numerous species. 
 
@@ -86,9 +86,9 @@ This panel allows the user to enter a .txt file as input. This file can have mor
 
 #### 3.2.1 Save in directory
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 This panel allows the user to enter an output directory for the downloaded file. 
 
@@ -111,7 +111,6 @@ This panel allows the user to enter any sequence file and convert it from one of
 ### 3.3 Sequence option
 
 #### 3.3.1 Only RefSeq sequences
-
 
 This option allows the user to be looking only for RefSeq sequences. Refseq sequences are of high quality but are less represented than any non-RefSeq sequence, usually, each RefSeq sequence contains the whole
 mitogenome.
@@ -138,33 +137,33 @@ In this chapter, I will show how to convert and align the sequence obtained in c
 
 #### 4.1.1 Select the operating directory
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 This panel allows the user to enter an input directory for the following operation. The structure of this directory is with two levels, the first is the species level, and the second is inside the first one. If none is written here, the previous from section 3.2.1 will be entered.
 
 #### 4.1.2 Select the output directory
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 Similar to 3.2.1, the user can enter a path to an output directory.
 
 #### 4.1.3 Turn into fasta
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 In this panel, all .gb files in the operating directory will be transformed into .fasta files and transferred to new subdirectories for each gene. The read direction is 5’ - 3’ (+).
 
 #### 4.1.4 Consensus
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 In this panel, in each subdirectory defined in 4.1.3, all sequences will be transferred to the new output directory by genes. Here three options are present :
 • 1 You have no sequences in the directory, as such a placeholder sequence, containing only "-" is created and moved.
@@ -176,25 +175,25 @@ directory unchanged.
 
 #### 4.2.1 Select the operating directory
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 Similar to 3.1.1, this panel allows the user to select an operating directory for the rest of his data manipulation. The structure here consists of the main directory with a gene-related subdirectory. 
 
 #### 4.2.2 Align
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 With the directory selected in 5.1.1, align all the files in each subdirectory with muscle and create output in the main root directory.
 
 #### 4.2.3 Merge
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 Merge all the .fasta files from the main directory by species names. Also creates two partition files in .txt format, which could be used in the last chapter.
 
@@ -206,15 +205,15 @@ Merge all the .fasta files from the main directory by species names. Also create
 
 #### 5.1.1 Select input sequence
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 #### 5.1.2 Select outgroup
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 #### 5.1.3 Select bootstrap value
 
@@ -224,17 +223,17 @@ Merge all the .fasta files from the main directory by species names. Also create
 
 #### 5.1.5 Save in directory
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 ### 5.2 Distance and parsimony
 
 #### 5.2.1 Select method
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 • UPGMA
 
@@ -264,9 +263,9 @@ Merge all the .fasta files from the main directory by species names. Also create
 
 #### 5.2.4 Build distance or parsimony tree
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 This panel allows the user to build a distance-based tree with maximum parsimony using all the options in sections 5.1 and 5.2.
 
@@ -274,10 +273,9 @@ This panel allows the user to build a distance-based tree with maximum parsimony
 
 #### 5.3.1 Select substitution model
 
-> __Warning__
-
-> Mandatory step
-
+```diff
+- Mandatory step
+```
 
 Select a substitution model for your sequence, this option is overwritten when using partition files.
 
@@ -314,9 +312,9 @@ Select a substitution model for your sequence, this option is overwritten when u
 
 #### 5.3.5 Select bootstrap type
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 • Bootstrap
 
@@ -324,8 +322,8 @@ Select a substitution model for your sequence, this option is overwritten when u
 
 #### 5.3.6 Build maximum likelihood tree using IQTREE
 
-> __Warning__
-
-> Mandatory step
+```diff
+- Mandatory step
+```
 
 # Reference
