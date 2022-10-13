@@ -84,11 +84,17 @@ the research option.
 #### 3.2.2 Convert alignment file
 
 This panel allows the user to enter any sequence file and convert it from one of the following formats to another. This step is optional.
+
 • clustal: Format used by the clustal X alignment tool, files must start with CLUSTAL X or CLUSTALX. The input and output files must and will end with .aln.
+
 • fastq: Format including nucleotide sequence along with a quality score. The input and output files must and will end with .fastq or .fq.
+
 • fasta: Standard format used by many programs. The input file must and will end with .aln.
+
 • Genbank: Format used by NCBI's Genbank, including sequences along with detailed descriptions The input and output files must and will end with .genbank or .gb.
+
 • nexus: Format used by many programs, such as mrbayes or BEAST. The input and output files must and will end with .nex.
+
 • phylip: Format used by many programs, such as IQ-TREE or RAxML. The input and output files must and will end with .phylip.
 
 ### 3.3 Sequence option
@@ -175,19 +181,27 @@ Merge all the .fasta files from the main directory by species names. Also create
 #### 5.2.1 Select method
 
 • UPGMA
+
 • Neighbour Joining (NJ)
+
 • Parsimony
+
 #### 5.2.2 Select output format
 
 • Newick
+
 • nexus
+
 • nexml
+
 • phyloxml
 
 #### 5.2.3 Select consensus method
 
 • Strict consensus methods only show relationships that are unambiguously supported by the data for all the trees
+
 • Majority consensus methods only show relationships that are unambiguously supported by the data the majority of the trees
+
 • Adams consensus methods, as described in Adams (1972)
 
 #### 5.2.4 Build distance or parsimony tree
@@ -199,16 +213,27 @@ This panel allows the user to build a distance-based tree with maximum parsimony
 #### 5.3.1 Select substitution model
 
 Select a substitution model for your sequence, this option is overwritten when using partition files.
+
 • Jukes and Cantor 69 (JC69)
+
 • Felsenstein 81 (F81)
+
 • Kimura two parameters (K2P)
+
 • Hasegana-Kishino-Yana 85 (HKY85)
+
 • Tamura Nei 93 (TN93)
+
 • Kimura three parameters (K3P)
+
 • Transition model (TIM)
+
 • Transversion model (TVM)
+
 • Symmetric model (SYM)
+
 • General time revesible (GTR)
+
 • Model finder (MPF)
 
 #### 5.3.2 Use gamma distribution
@@ -220,7 +245,9 @@ Select a substitution model for your sequence, this option is overwritten when u
 #### 5.3.5 Select bootstrap type
 
 • Bootstrap
+
 • Ultrafastbootstrap
+
 #### 5.3.6 Build maximum likelihood tree using IQTREE
 
 # Reference
