@@ -95,17 +95,17 @@ This panel allows the user to enter an output directory for the downloaded file.
 
 This panel allows the user to enter any sequence file and convert it from one of the following formats to another. 
 
-• clustal: Format used by the clustal X alignment tool, files must start with CLUSTAL X or CLUSTALX. The input and output files must and will end with .aln.
+• **clustal**: Format used by the clustal X alignment tool, files must start with CLUSTAL X or CLUSTALX. The input and output files must and will end with .aln.
 
-• fastq: Format including nucleotide sequence along with a quality score. The input and output files must and will end with .fastq or .fq.
+• **fastq**: Format including nucleotide sequence along with a quality score. The input and output files must and will end with .fastq or .fq.
 
-• fasta: Standard format used by many programs. The input file must and will end with .aln.
+• **fasta**: Standard format used by many programs. The input file must and will end with .aln.
 
-• Genbank: Format used by NCBI's Genbank, including sequences along with detailed descriptions The input and output files must and will end with .genbank or .gb.
+• **Genbank**: Format used by NCBI's Genbank, including sequences along with detailed descriptions The input and output files must and will end with .genbank or .gb.
 
-• nexus: Format used by many programs, such as mrbayes or BEAST. The input and output files must and will end with .nex.
+• **nexus**: Format used by many programs, such as mrbayes or BEAST. The input and output files must and will end with .nex.
 
-• phylip: Format used by many programs, such as IQ-TREE or RAxML. The input and output files must and will end with .phylip.
+• **phylip**: Format used by many programs, such as IQ-TREE or RAxML. The input and output files must and will end with .phylip.
 
 ### 3.3 Sequence option
 
@@ -233,22 +233,22 @@ Merge all the .fasta files from the main directory by species names. Also create
 - Mandatory step
 ```
 
-• UPGMA
+• **UPGMA**
 
-• Neighbour Joining (NJ)
+• **Neighbour Joining (NJ)**
 
-• Parsimony
+• **Parsimony**
 
 #### 5.2.2 Select output format
 
 
-• Newick
+• **Newick**
 
-• nexus
+• **nexus**
 
-• nexml
+• **nexml**
 
-• phyloxml
+• **phyloxml**
 
 #### 5.2.3 Select consensus method
 
@@ -277,27 +277,27 @@ This panel allows the user to build a distance-based tree with maximum parsimony
 
 Select a substitution model for your sequence, this option is overwritten when using partition files.
 
-• Jukes and Cantor 69 (JC69)
+• **Jukes and Cantor 69 (JC69)**
 
-• Felsenstein 81 (F81)
+• **Felsenstein 81 (F81)**
 
-• Kimura two parameters (K2P)
+• **Kimura two parameters (K2P)**
 
-• Hasegana-Kishino-Yana 85 (HKY85)
+• **Hasegana-Kishino-Yana 85 (HKY85)**
 
-• Tamura Nei 93 (TN93)
+• **Tamura Nei 93 (TN93)**
 
-• Kimura three parameters (K3P)
+• **Kimura three parameters (K3P)**
 
-• Transition model (TIM)
+• **Transition model (TIM)**
 
-• Transversion model (TVM)
+• **Transversion model (TVM)**
 
-• Symmetric model (SYM)
+• **Symmetric model (SYM)**
 
-• General time revesible (GTR)
+• **General time revesible (GTR)**
 
-• Model finder (MPF)
+• **Model finder (MPF)**
 
 #### 5.3.2 Use gamma distribution
 
@@ -314,9 +314,9 @@ Select a substitution model for your sequence, this option is overwritten when u
 - Mandatory step
 ```
 
-• Bootstrap
+• **Bootstrap**
 
-• Ultrafastbootstrap
+• **Ultrafastbootstrap**
 
 #### 5.3.6 Build maximum likelihood tree using IQTREE
 
