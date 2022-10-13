@@ -60,7 +60,7 @@ Many programs used in MitoPhy were not developed by me, so please cite each of t
 MitoPhy is a standalone program, as such, no prerequisites are needed.
 
 
-## Download manager
+## 3 Download manager
 
 In this chapter, we will address the different download options for sequences, using the E-utilities packages in python.
 ### 3.1 Sequence selection
@@ -71,8 +71,7 @@ In this chapter, we will address the different download options for sequences, u
 - Mandatory step
 ```
 
-This panel allows the user to enter a taxa name (at the moment the binomial species name, ie: Genus species format). This panel is quite straightforward as you have only to write the species name and hit the
-button confirm next to hit. Keep in mind that this method is useful when you have only a few species as you will have to hit the search button each time you change the species name to download it. 
+This panel allows the user to enter a taxa name (at the moment the binomial species name, ie: Genus species format). This panel is quite straightforward as you have only to write the species name and hit the button confirm next to hit. Keep in mind that this method is useful when you have only a few species as you will have to hit the search button each time you change the species name to download it. 
 
 #### 3.1.2 Select taxa list
 
@@ -112,13 +111,11 @@ This panel allows the user to enter any sequence file and convert it from one of
 
 #### 3.3.1 Only RefSeq sequences
 
-This option allows the user to be looking only for RefSeq sequences. Refseq sequences are of high quality but are less represented than any non-RefSeq sequence, usually, each RefSeq sequence contains the whole
-mitogenome.
+This option allows the user to be looking only for RefSeq sequences. Refseq sequences are of high quality but are less represented than any non-RefSeq sequence, usually, each RefSeq sequence contains the whole mitogenome.
 
 #### 3.3.2 Date range
 
-This option allows the user to enter a date interval for the downloaded sequence. As such if one writes 2014/08/03 and 2022/03/01, the downloaded sequence cannot be older than the third of august 2014 but are only younger than the first of march 2022. The format must be YYYY/MM/DD and both of the panels must be completed in a valid format. This step is optional, keep the panel blank if you do not want any date
-constraints.
+This option allows the user to enter a date interval for the downloaded sequence. As such if one writes 2014/08/03 and 2022/03/01, the downloaded sequence cannot be older than the third of august 2014 but are only younger than the first of march 2022. The format must be YYYY/MM/DD and both of the panels must be completed in a valid format. This step is optional, keep the panel blank if you do not want any date constraints.
 
 #### 3.3.3 Sequence range
 
@@ -126,12 +123,11 @@ This option allows the user to enter a sequence length interval in which the dow
 
 ### 3.4 Research bar
 
-
 At the moment, the research bar submenu only contains one button: the research button. Taking into account all of the previous options and input, the research button will perform research on NCBI's Genbank database. For each species provided, a folder will be created along with a .gb (GenBank format) containing many sequences for the species (capped at 100 to not overload the NCBI's servers).
 
 ## 4 Sequence manipulation
 
-In this chapter, I will show how to convert and align the sequence obtained in chapter 3 and other sequence-related operations.
+In this chapter, I will show how to convert and align the sequence obtained in [chapter 3](#3-Download-manager) and other sequence-related operations.
 
 ### 4.1 Sequence conversion
 
@@ -141,7 +137,7 @@ In this chapter, I will show how to convert and align the sequence obtained in c
 - Mandatory step
 ```
 
-This panel allows the user to enter an input directory for the following operation. The structure of this directory is with two levels, the first is the species level, and the second is inside the first one. If none is written here, the previous from section 3.2.1 will be entered.
+This panel allows the user to enter an input directory for the following operation. The structure of this directory is with two levels, the first is the species level, and the second is inside the first one. If none is written here, the previous from section [3.2.1](#321-Save-in-directory) will be entered.
 
 #### 4.1.2 Select the output directory
 
@@ -149,7 +145,7 @@ This panel allows the user to enter an input directory for the following operati
 - Mandatory step
 ```
 
-Similar to 3.2.1, the user can enter a path to an output directory.
+Similar to [3.2.1](#321-Save-in-directory), the user can enter a path to an output directory.
 
 #### 4.1.3 Turn into fasta
 
@@ -165,10 +161,12 @@ In this panel, all .gb files in the operating directory will be transformed into
 - Mandatory step
 ```
 
-In this panel, in each subdirectory defined in 4.1.3, all sequences will be transferred to the new output directory by genes. Here three options are present :
+In this panel, in each subdirectory defined in [4.1.3](#413-Turn-into-fasta), all sequences will be transferred to the new output directory by genes. Here three options are present :
+
 • 1 You have no sequences in the directory, as such a placeholder sequence, containing only "-" is created and moved.
-• 2 You have only one sequence, no consensus is made and the sequence is moved to the output
-directory unchanged.
+
+• 2 You have only one sequence, no consensus is made and the sequence is moved to the output directory unchanged.
+
 • 3 You have more than two sequences and a majority of the sequence is made and moved to the output directory. Ambiguous sites are "X”.
 
 ### 4.2 Alignment parameters
@@ -179,7 +177,7 @@ directory unchanged.
 - Mandatory step
 ```
 
-Similar to 3.1.1, this panel allows the user to select an operating directory for the rest of his data manipulation. The structure here consists of the main directory with a gene-related subdirectory. 
+Similar to [3.1.1](#311-Write-taxa-name), this panel allows the user to select an operating directory for the rest of his data manipulation. The structure here consists of the main directory with a gene-related subdirectory. 
 
 #### 4.2.2 Align
 
@@ -187,7 +185,7 @@ Similar to 3.1.1, this panel allows the user to select an operating directory fo
 - Mandatory step
 ```
 
-With the directory selected in 5.1.1, align all the files in each subdirectory with muscle and create output in the main root directory.
+With the directory selected in [4.1.1](#411Select-the-operating-directory), align all the files in each subdirectory with muscle and create output in the main root directory.
 
 #### 4.2.3 Merge
 
@@ -267,7 +265,7 @@ Merge all the .fasta files from the main directory by species names. Also create
 - Mandatory step
 ```
 
-This panel allows the user to build a distance-based tree with maximum parsimony using all the options in sections 5.1 and 5.2.
+This panel allows the user to build a distance-based tree with maximum parsimony using the options in sections [5.1](#General-options) and [5.2](#Distance-and-parsimony).
 
 ### 5.3 Maximum likelihood
 
