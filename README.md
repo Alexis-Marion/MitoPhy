@@ -55,8 +55,6 @@ MitoPhy is a visual interface written in python 3 for Unix computers dedicated t
 
 Many programs used in MitoPhy were not developed by me, so please cite each of them when used. If you have any questions/requests feel free to ask me at my Github.
 
-<span style="color:blue">some *blue* text</span>.
-
 ## 2 Installation
 
 MitoPhy is a standalone program, as such, no prerequisites are needed.
@@ -69,23 +67,38 @@ In this chapter, we will address the different download options for sequences, u
 
 #### 3.1.1 Write taxa name
 
+```diff
+- Mandatory step
+```
+
 This panel allows the user to enter a taxa name (at the moment the binomial species name, ie: Genus species format). This panel is quite straightforward as you have only to write the species name and hit the
-button confirm next to hit. Keep in mind that this method is useful when you have only a few species as you will have to hit the search button each time you change the species name to download it. This and "Select taxa list" are mutually exclusive, either way, one of these options is mandatory for the research.
+button confirm next to hit. Keep in mind that this method is useful when you have only a few species as you will have to hit the search button each time you change the species name to download it. 
 
 #### 3.1.2 Select taxa list
 
-This panel allows the user to enter a .txt file as input. This file can have more than one species, each written on a different line. This download method is far superior to the previous, especially with numerous species. This and "Write taxa name" are mutually exclusive, in both cases, one of these options is mandatory for the research option.
+```diff
+- Mandatory step
+```
+
+This panel allows the user to enter a .txt file as input. This file can have more than one species, each written on a different line. This download method is far superior to the previous, especially with numerous species. 
 
 ### 3.2 Save, load, and convert
 
 #### 3.2.1 Save in directory
 
-This panel allows the user to enter an output directory for the downloaded file. This step is mandatory for
-the research option.
+```diff
+- Mandatory step
+```
+
+This panel allows the user to enter an output directory for the downloaded file. 
 
 #### 3.2.2 Convert alignment file
 
-This panel allows the user to enter any sequence file and convert it from one of the following formats to another. This step is optional.
+```diff
+- Optional step
+```
+
+This panel allows the user to enter any sequence file and convert it from one of the following formats to another. 
 
 • clustal: Format used by the clustal X alignment tool, files must start with CLUSTAL X or CLUSTALX. The input and output files must and will end with .aln.
 
@@ -103,20 +116,35 @@ This panel allows the user to enter any sequence file and convert it from one of
 
 #### 3.3.1 Only RefSeq sequences
 
+```diff
+- Optional step
+```
+
 This option allows the user to be looking only for RefSeq sequences. Refseq sequences are of high quality but are less represented than any non-RefSeq sequence, usually, each RefSeq sequence contains the whole
-mitogenome. This step is optional.
+mitogenome.
 
 #### 3.3.2 Date range
 
-This option allows the user to enter a date interval for the downloaded sequence. As such if one writes 2014/08/03 and 2022/03/01, the downloaded sequence cannot be older than the third of august 2014 but
-are only younger than the first of march 2022. The format must be YYYY/MM/DD and both of the panels must be completed in a valid format. This step is optional, keep the panel blank if you do not want any date
+```diff
+- Optional step
+```
+
+This option allows the user to enter a date interval for the downloaded sequence. As such if one writes 2014/08/03 and 2022/03/01, the downloaded sequence cannot be older than the third of august 2014 but are only younger than the first of march 2022. The format must be YYYY/MM/DD and both of the panels must be completed in a valid format. This step is optional, keep the panel blank if you do not want any date
 constraints.
 
 #### 3.3.3 Sequence range
 
+```diff
+- Optional step
+```
+
 This option allows the user to enter a sequence length interval in which the downloaded sequence cannot be smaller or bigger. Same as "Date range”, you must complete both of the panels if you want a constraint. This step is optional, keep the panel blank if you do not want any sequence length constraint.
 
 ### 3.4 Research bar
+
+```diff
+- Mandatory step
+```
 
 At the moment, the research bar submenu only contains one button: the research button. Taking into account all of the previous options and input, the research button will perform research on NCBI's Genbank database. For each species provided, a folder will be created along with a .gb (GenBank format) containing many sequences for the species (capped at 100 to not overload the NCBI's servers).
 
@@ -126,20 +154,39 @@ In this chapter, I will show how to convert and align the sequence obtained in c
 
 ### 4.1 Sequence conversion
 
+```diff
+- Optional step
+```
 
 #### 4.1.1 Select the operating directory
 
-This panel allows the user to enter an input directory for the following operation. The structure of this directory is with two levels, the first is the species level, and the second is inside the first one. If none is written here, the previous from section 3.2.1 will be entered. Either way, this step stays mandatory.
+```diff
+- Mandatory step
+```
+
+This panel allows the user to enter an input directory for the following operation. The structure of this directory is with two levels, the first is the species level, and the second is inside the first one. If none is written here, the previous from section 3.2.1 will be entered.
 
 #### 4.1.2 Select the output directory
 
-Similar to 3.2.1, the user can enter a path to an output directory. This step is mandatory.
+```diff
+- Mandatory step
+```
+
+Similar to 3.2.1, the user can enter a path to an output directory.
 
 #### 4.1.3 Turn into fasta
 
-In this panel, all .gb files in the operating directory will be transformed into .fasta files and transferred to new subdirectories for each gene. The read direction is 5’ - 3’ (+). This step is mandatory for step 4.1.4.
+```diff
+- Mandatory step
+```
+
+In this panel, all .gb files in the operating directory will be transformed into .fasta files and transferred to new subdirectories for each gene. The read direction is 5’ - 3’ (+).
 
 #### 4.1.4 Consensus
+
+```diff
+- Mandatory step
+```
 
 In this panel, in each subdirectory defined in 4.1.3, all sequences will be transferred to the new output directory by genes. Here three options are present :
 • 1 You have no sequences in the directory, as such a placeholder sequence, containing only "-" is created and moved.
@@ -151,18 +198,33 @@ directory unchanged.
 
 #### 4.2.1 Select the operating directory
 
-Similar to 3.1.1, this panel allows the user to select an operating directory for the rest of his data manipulation. The structure here consists of the main directory with a gene-related subdirectory. This step is mandatory.
+```diff
+- Mandatory step
+```
+
+Similar to 3.1.1, this panel allows the user to select an operating directory for the rest of his data manipulation. The structure here consists of the main directory with a gene-related subdirectory. 
 
 #### 4.2.2 Align
+
+```diff
+- Mandatory step
+```
 
 With the directory selected in 5.1.1, align all the files in each subdirectory with muscle and create output in the main root directory.
 
 #### 4.2.3 Merge
 
+```diff
+- Mandatory step
+```
+
 Merge all the .fasta files from the main directory by species names. Also creates two partition files in .txt format, which could be used in the last chapter.
 
 #### 4.2.4 Alignement info
 
+```diff
+- Optional step
+```
 
 ## 5 Phylogeny
 
@@ -170,17 +232,41 @@ Merge all the .fasta files from the main directory by species names. Also create
 
 #### 5.1.1 Select input sequence
 
+```diff
+- Mandatory step
+```
+
 #### 5.1.2 Select outgroup
+
+```diff
+- Mandatory step
+```
 
 #### 5.1.3 Select bootstrap value
 
+```diff
+- Optional step
+```
+
 #### 5.1.4 Select a constraint tree
 
+```diff
+- Optional step
+```
+
 #### 5.1.5 Save in directory
+
+```diff
+- Mandatory step
+```
 
 ### 5.2 Distance and parsimony
 
 #### 5.2.1 Select method
+
+```diff
+- Mandatory step
+```
 
 • UPGMA
 
@@ -189,6 +275,10 @@ Merge all the .fasta files from the main directory by species names. Also create
 • Parsimony
 
 #### 5.2.2 Select output format
+
+```diff
+- Optional step
+```
 
 • Newick
 
@@ -200,6 +290,10 @@ Merge all the .fasta files from the main directory by species names. Also create
 
 #### 5.2.3 Select consensus method
 
+```diff
+- Optional step
+```
+
 • Strict consensus methods only show relationships that are unambiguously supported by the data for all the trees
 
 • Majority consensus methods only show relationships that are unambiguously supported by the data the majority of the trees
@@ -208,12 +302,19 @@ Merge all the .fasta files from the main directory by species names. Also create
 
 #### 5.2.4 Build distance or parsimony tree
 
+```diff
+- Mandatory step
+```
+
 This panel allows the user to build a distance-based tree with maximum parsimony using all the options in sections 5.1 and 5.2.
 
 ### 5.3 Maximum likelihood
 
 #### 5.3.1 Select substitution model
 
+```diff
+- Mandatory step
+```
 Select a substitution model for your sequence, this option is overwritten when using partition files.
 
 • Jukes and Cantor 69 (JC69)
@@ -240,16 +341,36 @@ Select a substitution model for your sequence, this option is overwritten when u
 
 #### 5.3.2 Use gamma distribution
 
+```diff
+- Optional step
+```
+
 #### 5.3.3 Use invariable sites
+
+```diff
+- Optional step
+```
 
 #### 5.3.4 Select the partition file
 
+```diff
+- Optional step
+```
+
 #### 5.3.5 Select bootstrap type
+
+```diff
+- Mandatory step
+```
 
 • Bootstrap
 
 • Ultrafastbootstrap
 
 #### 5.3.6 Build maximum likelihood tree using IQTREE
+
+```diff
+- Mandatory step
+```
 
 # Reference
