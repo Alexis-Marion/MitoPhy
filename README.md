@@ -32,7 +32,7 @@
 	- [5.1 General options](#51-General-options)
 		- [5.1.1 Select input sequence](#511-Select-input-sequence)
 		- [5.1.2 Select outgroup](#512-Select-outgroup)
-    		- [5.1.3 Select bootstrap value](#513-Select-bootstrap-value)
+		- [5.1.3 Select bootstrap value](#513-Select-bootstrap-value)
 		- [5.1.4 Select a constraint tree](#514-Select-a-constraint-tree)
 		- [5.1.5 Save in directory](#515-Save-in-directory)
   	- [5.2 Distance and parsimony](#52-Distance-and-parsimony)
