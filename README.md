@@ -60,15 +60,16 @@ Many programs used in MitoPhy were not developed by me, so please cite each of t
 MitoPhy is a standalone program, as such, no prerequisites are needed.
 
 
-## 3 Download manager
+## Download manager
 
 In this chapter, we will address the different download options for sequences, using the E-utilities packages in python.
 ### 3.1 Sequence selection
 
-#### 3.1.1 Write taxa name
+#### 3.1.1 Write taxa name
 
 This panel allows the user to enter a taxa name (at the moment the binomial species name, ie: Genus species format). This panel is quite straightforward as you have only to write the species name and hit the
 button confirm next to hit. Keep in mind that this method is useful when you have only a few species as you will have to hit the search button each time you change the species name to download it. This and "Select taxa list" are mutually exclusive, either way, one of these options is mandatory for the research.
+
 #### 3.1.2 Select taxa list
 
 This panel allows the user to enter a .txt file as input. This file can have more than one species, each written on a different line. This download method is far superior to the previous, especially with numerous species. This and "Write taxa name" are mutually exclusive, in both cases, one of these options is mandatory for the research option.
@@ -80,7 +81,7 @@ This panel allows the user to enter a .txt file as input. This file can have mor
 This panel allows the user to enter an output directory for the downloaded file. This step is mandatory for
 the research option.
 
-#### 3.2.2 Convert alignment file
+#### 3.2.2 Convert alignment file
 
 This panel allows the user to enter any sequence file and convert it from one of the following formats to another. This step is optional.
 • clustal: Format used by the clustal X alignment tool, files must start with CLUSTAL X or CLUSTALX. The input and output files must and will end with .aln.
@@ -92,7 +93,7 @@ This panel allows the user to enter any sequence file and convert it from one of
 
 ### 3.3 Sequence option
 
-#### 3.3.1 Only RefSeq sequences
+#### 3.3.1 Only RefSeq sequences
 
 This option allows the user to be looking only for RefSeq sequences. Refseq sequences are of high quality but are less represented than any non-RefSeq sequence, usually, each RefSeq sequence contains the whole
 mitogenome. This step is optional.
@@ -107,11 +108,11 @@ constraints.
 
 This option allows the user to enter a sequence length interval in which the downloaded sequence cannot be smaller or bigger. Same as "Date range”, you must complete both of the panels if you want a constraint. This step is optional, keep the panel blank if you do not want any sequence length constraint.
 
-### 3.4 Research bar
+### 3.4 Research bar
 
 At the moment, the research bar submenu only contains one button: the research button. Taking into account all of the previous options and input, the research button will perform research on NCBI's Genbank database. For each species provided, a folder will be created along with a .gb (GenBank format) containing many sequences for the species (capped at 100 to not overload the NCBI's servers).
 
-## 4 Sequence manipulation
+## 4 Sequence manipulation
 
 In this chapter, I will show how to convert and align the sequence obtained in chapter 3 and other sequence-related operations.
 
@@ -122,7 +123,7 @@ In this chapter, I will show how to convert and align the sequence obtained in c
 
 This panel allows the user to enter an input directory for the following operation. The structure of this directory is with two levels, the first is the species level, and the second is inside the first one. If none is written here, the previous from section 3.2.1 will be entered. Either way, this step stays mandatory.
 
-#### 4.1.2 Select the output directory
+#### 4.1.2 Select the output directory
 
 Similar to 3.2.1, the user can enter a path to an output directory. This step is mandatory.
 
