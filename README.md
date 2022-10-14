@@ -168,7 +168,7 @@ In this panel, in each subdirectory defined in [4.1.3](#413-Turn-into-fasta), al
 
 • You have only **one** sequence, no consensus is made and the sequence is moved to the output directory unchanged.
 
-• You have more than **two** sequences and a majority of the sequence is made and moved to the output directory. Ambiguous sites are "X”.
+• You have more than **two** sequences and a majority of the sequence is made and moved to the output directory. Ambiguous sites are "N”.
 
 ### 4.2 Alignment parameters
 
