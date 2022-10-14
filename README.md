@@ -289,27 +289,27 @@ All options used for building maximum likelihood trees using IQ-TREE.
 
 Select a substitution model for your sequence, this option is overwritten when using partition files.
 
-• **Jukes and Cantor 69 (JC69)**
+• **Jukes and Cantor 69 (JC69)** (Equal substitution rates and base frequencies, + 0 degree of freedom, Jukes and Cantor, 1969)
 
-• **Felsenstein 81 (F81)**
+• **Felsenstein 81 (F81)** (Equal substitution rates and unequal base frequencies, + 3 degree of freedom, Felsentein 1981)
 
-• **Kimura two parameters (K2P)**
+• **Kimura two parameters (K2P)** (Unequal transition/transversion rates an equal base frequencies, + 1 degree of freedom, Kimura 1980)
 
-• **Hasegana-Kishino-Yana 85 (HKY85)**
+• **Hasegana-Kishino-Yana 85 (HKY85)** (Unequal transition/transversion rates an unequal base frequencies, + 4 degree of freedom, (Hasegawa, Kishino and Yano 1985)
 
-• **Tamura Nei 93 (TN93)**
+• **Tamura Nei 93 (TN93)** (Similar to HKY85 but unequal purine/pyrimidine substitution rates, + 5  degree of freedom, Tamura and Nei, 1993)
 
-• **Kimura three parameters (K3P)**
+• **Kimura three parameters (K3P)** (Two transversion and one transition rates and equal base frequencies, + 3  degree of freedom, Kimura 1981)
 
-• **Transition model (TIM)**
+• **Transition model (TIM)** (Unequal AC and GT *vs* AT and CG substitution rates and unequal base frequencies, + 6 degree of freedom)
 
-• **Transversion model (TVM)**
+• **Transversion model (TVM)** (Unequal substitution rates except AG and CT and unequal base frequencies, + 6 degree of freedom)
 
-• **Symmetric model (SYM)**
+• **Symmetric model (SYM)** (Unequal substitution rates and equal base frequencies, + 5 degree of freedom, Zharkikh 1994)
 
-• **General time revesible (GTR)**
+• **General time revesible (GTR)** (Unequal substitution rates and unequal base frequencies, + 8 degree of freedom, Tavare 1986)
 
-• **Model finder (MPF)**
+• **Model finder (MPF)** (Algorithm designed to search for the likeliest model suited for the data, time-consuming, Kalyaanamoorthy et al., 2017)
 
 #### 5.3.2 Use gamma distribution
 
@@ -346,6 +346,24 @@ D.T. Hoang, O. Chernomor, A. von Haeseler, B.Q. Minh, and L.S. Vinh (2018) UFBoo
 
 Edgar, R.C. 2004. MUSCLE: a multiple sequence alignment method with reduced time and space complexity. *BMC Bioinformatics*. 5:113 https://doi.org/10.1186/1471-2105-5-113
 
+Felsenstein, J. Evolutionary trees from DNA sequences: A maximum likelihood approach. J Mol Evol 17, 368–376 (1981). https://doi.org/10.1007/BF01734359
+
+Hasegawa, M., Kishino, H. & Yano, Ta. Dating of the human-ape splitting by a molecular clock of mitochondrial DNA. J Mol Evol 22, 160–174 (1985). https://doi.org/10.1007/BF02101694
+
+Jukes, Thomas H., and Charles R. Cantor. "Evolution of Protein Molecules." Mammalian Protein Metabolism, (1969): 21-132. https://doi.org/10.1016/B978-1-4832-3211-9.50009-7.
+
+S. Kalyaanamoorthy, B.Q. Minh, T.K.F. Wong, A. von Haeseler, L.S. Jermiin (2017) ModelFinder: Fast model selection for accurate phylogenetic estimates. Nat. Methods, 14:587-589. https://doi.org/10.1038/nmeth.4285
+
+Kimura, M. A simple method for estimating evolutionary rates of base substitutions through comparative studies of nucleotide sequences. J Mol Evol 16, 111–120 (1980). https://doi.org/10.1007/BF01731581
+
+Kimura M. Estimation of evolutionary distances between homologous nucleotide sequences. Proc Natl Acad Sci U S A. 1981 Jan;78(1):454-8. doi: 10.1073/pnas.78.1.454. PMID: 6165991; PMCID: PMC319072.
+
 Minh, B. Q. Schmidt, H. A. Chernomor, O. Schrempf, D. Woodhams, M. D. von Haeseler, A. Lanfear, R. 2020. IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era. *Molecular biology and evolution*. 37(5):1530–1534. https://doi.org/10.1093/molbev/msaa015  
 
 McKinney, W., 2010. Data structures for statistical computing in python. In Proceedings of the 9th Python in Science Conference. pp. 51–56.
+
+Tamura, K., Nei, M., Estimation of the number of nucleotide substitutions in the control region of mitochondrial DNA in humans and chimpanzees., Molecular Biology and Evolution, Volume 10, Issue 3, May 1993, Pages 512–526, https://doi.org/10.1093/oxfordjournals.molbev.a040023
+
+Tavaré, S. (1986). Some probabilistic and statistical problems in the analysis of DNA sequences. Lectures on mathematics in the life sciences, 17(2), 57-86.
+
+Zharkikh, A. (1994). Estimation of evolutionary distances between nucleotide sequences. Journal of molecular evolution, 39(3), 315-329.
