@@ -326,9 +326,9 @@ Select a substitution model for your sequence, this option is overwritten when u
 - Mandatory step
 ```
 
-• **Bootstrap**
+• **Bootstrap** Non-parametric bootstrap is a random sampling with replacement creating pseudo-matrices for building alternative trees to compare the originnal to. Node with >= 70 % are robust.
 
-• **Ultrafastbootstrap**
+• **Ultrafastbootstrap** Ultra fast bootstrap approximation for 1000 replicates, only nodes with  >= 95 % are robust (D.T. Hoang et al., 2018)
 
 #### 5.3.6 Build maximum likelihood tree using IQTREE
 
@@ -341,6 +341,8 @@ Select a substitution model for your sequence, this option is overwritten when u
 # Reference
 
 Cock, P. J. Antao, T. Chang, J. T. Chapman, B. A. Cox, C. J. Dalke, A. De Hoon, M. J. 2009. Biopython: freely available Python tools for computational molecular biology and bioinformatics. *Bioinformatics*. 25(11):1422-1423.
+
+D.T. Hoang, O. Chernomor, A. von Haeseler, B.Q. Minh, and L.S. Vinh (2018) UFBoot2: Improving the ultrafast bootstrap approximation. Mol. Biol. Evol., 35:518–522. https://doi.org/10.1093/molbev/msx281
 
 Edgar, R.C. 2004. MUSCLE: a multiple sequence alignment method with reduced time and space complexity. *BMC Bioinformatics*. 5:113 https://doi.org/10.1186/1471-2105-5-113
 
