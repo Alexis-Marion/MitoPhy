@@ -47,6 +47,7 @@
 		- [5.3.4 Select the partition file](#534-Select-the-partition-file)
 		- [5.3.5 Select bootstrap type](#535-Select-bootstrap-type)
 		- [5.3.6 Build maximum likelihood tree using IQTREE](#536-Build-maximum-likelihood-tree-using-IQTREE)
+- [6 Known issues](#6-Known-issues)
 - [Reference](#Reference)
 
 ## 1 Introduction
@@ -197,6 +198,8 @@ Merge all the .fasta files from the main directory by species names. Also create
 
 #### 4.2.4 Alignement info
 
+Select a multi-sequence file and give information about : the number of sequence, the number of invariable site, variable sites and only indel sites. 
+
 ## 5 Phylogeny
 
 ### 5.1 General options
@@ -225,7 +228,11 @@ Merge all the .fasta files from the main directory by species names. Also create
 - Mandatory step
 ```
 
+Similar to [3.2.1](321-Save-in-direcotry), this panel allows the user to enter an output directory for the reconstructed tree and additional files. 
+
 ### 5.2 Distance and parsimony
+
+All options used for distance-based and maximum parsiomny methods.
 
 #### 5.2.1 Select method
 
@@ -233,22 +240,25 @@ Merge all the .fasta files from the main directory by species names. Also create
 - Mandatory step
 ```
 
-• **UPGMA**
+Select the algortihm best suited for your data
 
-• **Neighbour Joining (NJ)**
+• **UPGMA** (Distance based algortihm, assumes a constant substitution rate, over time and phylogenetic lineages (known as the molecular clock hypothesis)
 
-• **Parsimony**
+• **Neighbour Joining (NJ)** (Distance based algorithm, reconstructs phylogenetic trees from evolutionary distance data)
+
+• **Parsimony** (Cladistic,  optimality criterion under which the phylogenetic tree that minimizes the total number of character-state changes)
 
 #### 5.2.2 Select output format
 
+Select output format for the tree, default is Newick.
 
-• **Newick**
+• **Newick** (or New Hampshire tree format, way of representing trees with parentheses and commas, standard format for phylogenetic trees)
 
-• **nexus**
+• **nexus** (tree format, starting with "#Nexus" and followed by a  "TREES block" with trees written in Newick format)
 
-• **nexml**
+• **nexml** (similar to nexus format, but using XML for richer phylogenetic data)
 
-• **phyloxml**
+• **phyloxml** (XML format for rich node and branch annotation)
 
 #### 5.2.3 Select consensus method
 
@@ -268,6 +278,8 @@ Merge all the .fasta files from the main directory by species names. Also create
 This panel allows the user to build a distance-based tree with maximum parsimony using the options in sections [5.1](#General-options) and [5.2](#Distance-and-parsimony).
 
 ### 5.3 Maximum likelihood
+
+All options used for building maximum likelihood trees using IQ-TREE. 
 
 #### 5.3.1 Select substitution model
 
@@ -323,6 +335,8 @@ Select a substitution model for your sequence, this option is overwritten when u
 ```diff
 - Mandatory step
 ```
+
+## 6 Known issues
 
 # Reference
 
