@@ -374,4 +374,6 @@ Tamura, K., Nei, M., Estimation of the number of nucleotide substitutions in the
 
 Tavaré, S. (1986). Some probabilistic and statistical problems in the analysis of DNA sequences. Lectures on mathematics in the life sciences, 17(2), 57-86.
 
+Yang, Z. Maximum likelihood phylogenetic estimation from DNA sequences with variable rates over sites: Approximate methods. J Mol Evol 39, 306–314 (1994). https://doi.org/10.1007/BF00160154
+
 Zharkikh, A. (1994). Estimation of evolutionary distances between nucleotide sequences. Journal of molecular evolution, 39(3), 315-329.
