@@ -5,6 +5,8 @@
 - [Contents](#Contents)
 - [1 Introduction](#1-Introduction)
 - [2 Installation](#2-Installation)
+	- [2.1 MitoPhy for Mac](#21-MitoPhy-for-Mac)
+	- [2.2 MitoPhy for Linux](#22-MitoPhy-for-Linux)
 - [3 Download manager](#3-Download-manager)
 	- [3.1 Sequence selection](#31-Sequence-selection)
     - [3.1.1 Write taxa name](#311-Write-taxa-name)
@@ -48,13 +50,14 @@
 		- [5.3.5 Select bootstrap type](#535-Select-bootstrap-type)
 		- [5.3.6 Build maximum likelihood tree using IQTREE](#536-Build-maximum-likelihood-tree-using-IQTREE)
 - [6 Known issues](#6-Known-issues)
+- [7 Future projects](#7-Future-projects)
 - [Reference](#Reference)
 
 ## 1 Introduction
 
 <p align="justify"> MitoPhy is a visual interface written in python 3 for Unix computers dedicated to sequence management and molecular phylogenetics. The purpose of MitoPhy is to provide a quick and efficient way to build phylogenies de novo. I created the general idea for MitoPhy during my Master's internship in 2022. I was asked to build a large phylogeny using mainly mitochondrial genes for more than 350 species. No sequences were already available in my lab, so I relied on using NCBI's GENBANK. However the task was a bit too overwhelming for me and before this internship, I had no genuine idea of how Genbank works. I asked myself several questions such as: what is a "good" sequence: is it a long one, a well-attributed one, or a contamination-free one? To make it simple, all of the above. But since my time was limited, I could not simply examine each possible gene for each species more than 5200 times and look for these criteria. Moreover, with such a large number, human errors can happen easily. So I decided to build a pipeline with several programs and scripts, making this task easier. Six months after and the first version is complete, with numerous options included and an in-built visual interface. </p>
 
-<p align="justify"> Mitophy mainly rely on taking actions on directory recursively, meaning that when proposed to select a direcotry, the user should *most of the time* choose to create a new one. Otherwise the built-in loop in the programm can go out of hand, and cause several issues. In doubt work only with pristine clear directories or kill the process in the terminal. </p>
+<p align="justify"> Mitophy mainly rely on taking actions on directory recursively, meaning that when proposed to select a direcotry, the user should create a new one. Otherwise the built-in loop in the programm can go out of hand, and cause several issues. In doubt work only with pristine clear directories or kill the process in the terminal. </p>
 
 <p align="justify"> Many programs used in MitoPhy were not developed by me such as muscle (Edgar, 2004), IQ-TREE (Minh et al., 2020) as well as python pacakges : module Bio (Cock et al., 2009), pandas (McKinney, W. et al., 2010), so please cite each of them when using the associated function. If you have any questions/requests feel free to ask me at my Github. </p>
 
@@ -71,6 +74,9 @@ MitoPhy for Mac OS can be obtained at "". MitoPhy.app is a bundled app that can 
 
 MitoPhy for Linux can be downloaded right here. I recommend to install MitoPhy on the $HOME directory. (ADDING MITOPHY TO PATH)
 
+```diff
+- Mandatory step
+```
 
 ## 3 Download manager
 
