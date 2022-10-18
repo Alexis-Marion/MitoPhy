@@ -1,5 +1,5 @@
 # MitoPhy 1.0
-![banner.png](banner.png | width=100)
+![banner.png](banner.png)
 ## Contents
 
 - [Contents](#Contents)
