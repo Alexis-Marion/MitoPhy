@@ -1,5 +1,5 @@
 # MitoPhy 1.0
-![banner]("banner.png")
+![banner.png]("https://github.com/Alexis-Marion/MitoPhy/blob/main/banner.png")
 ## Contents
 
 - [Contents](#Contents)
