@@ -1,6 +1,13 @@
-# MitoPhy 1.0
-![banner.png](banner.png)
+<img src="banner.png" align="left"> 
+
+
+# MitoPhy 1.0 : A graphical user interface designed for quick and easy phylogentic reconstruction
+
+---
+
 ## Contents
+
+---
 
 - [Contents](#Contents)
 - [1 Introduction](#1-Introduction)
@@ -52,6 +59,8 @@
 - [6 Known issues](#6-Known-issues)
 - [7 Future projects](#7-Future-projects)
 - [Reference](#Reference)
+
+---
 
 ## 1 Introduction
 
