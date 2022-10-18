@@ -98,7 +98,7 @@ This panel allows the user to enter any sequence file and convert it from one of
 
 • **clustal**: Format used by the clustal X alignment tool, files must start with CLUSTAL X or CLUSTALX. The input and output files must and will end with .aln.
 
-• **fastq**: Format including nucleotide sequence along with a quality score. The input and output files must and will end with .fastq or .fq.
+• **fastq**: Format including nucleotide sequence along with a quality score. Works only for input file, must end with .fastq or .fq.
 
 • **fasta**: Standard format used by many programs. The input file must and will end with .aln.
 
