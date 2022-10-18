@@ -3,13 +3,9 @@
 
 # MitoPhy 1.0 : A graphical user interface designed for quick and easy phylogentic reconstruction
 
----
 
-## Contents
 
----
 
-- [Contents](#Contents)
 - [1 Introduction](#1-Introduction)
 - [2 Installation](#2-Installation)
 	- [2.1 MitoPhy for Mac](#21-MitoPhy-for-Mac)
