@@ -54,11 +54,22 @@
 
 <p align="justify"> MitoPhy is a visual interface written in python 3 for Unix computers dedicated to sequence management and molecular phylogenetics. The purpose of MitoPhy is to provide a quick and efficient way to build phylogenies de novo. I created the general idea for MitoPhy during my Master's internship in 2022. I was asked to build a large phylogeny using mainly mitochondrial genes for more than 350 species. No sequences were already available in my lab, so I relied on using NCBI's GENBANK. However the task was a bit too overwhelming for me and before this internship, I had no genuine idea of how Genbank works. I asked myself several questions such as: what is a "good" sequence: is it a long one, a well-attributed one, or a contamination-free one? To make it simple, all of the above. But since my time was limited, I could not simply examine each possible gene for each species more than 5200 times and look for these criteria. Moreover, with such a large number, human errors can happen easily. So I decided to build a pipeline with several programs and scripts, making this task easier. Six months after and the first version is complete, with numerous options included and an in-built visual interface. </p>
 
-Many programs used in MitoPhy were not developed by me such as muscle (Edgar, 2004), IQ-TREE (Minh et al., 2020) as well as python pacakges : module Bio (Cock et al., 2009), pandas (McKinney, W. et al., 2010), so please cite each of them when using the associated function. If you have any questions/requests feel free to ask me at my Github.
+<p align="justify"> Mitophy mainly rely on taking actions on directory recursively, meaning that when proposed to select a direcotry, the user should *most of the time* choose to create a new one. Otherwise the built-in loop in the programm can go out of hand, and cause several issues. In doubt work only with pristine clear directories or kill the process in the terminal. </p>
+
+<p align="justify"> Many programs used in MitoPhy were not developed by me such as muscle (Edgar, 2004), IQ-TREE (Minh et al., 2020) as well as python pacakges : module Bio (Cock et al., 2009), pandas (McKinney, W. et al., 2010), so please cite each of them when using the associated function. If you have any questions/requests feel free to ask me at my Github. </p>
 
 ## 2 Installation
 
 MitoPhy is a standalone program, as such, no prerequisites are needed.
+Mac and Linux (Ubuntu/Debian) are distributed and can be respectively be obtained at my figshare repository or here.
+
+### 2.1 MitoPhy for Mac
+
+MitoPhy for Mac OS can be obtained at "". MitoPhy.app is a bundled app that can be used like any other app from the App Store. However this distribution do not display the terminal, as such bugs are hardly tracked down. To counteract this, the user can enter manually inside the MitoPhy.app and locate the MitoPhy executable file (MitoPhy/Contents/MacOS/MitoPhy). This procedure is quite handly as it can help you to keep tracks on long procedure, such as phylogenetic reconstruction.
+
+### 2.2 MitoPhy for Linux
+
+MitoPhy for Linux can be downloaded right here. I recommend to install MitoPhy on the $HOME directory. (ADDING MITOPHY TO PATH)
 
 
 ## 3 Download manager
@@ -72,7 +83,7 @@ In this chapter, we will address the different download options for sequences, u
 - Mandatory step
 ```
 
-<p align="justify"> This panel allows the user to enter a taxa name (at the moment the binomial species name, ie: Genus species format). This panel is quite straightforward as you have only to write the species name and hit the button confirm next to hit. Keep in mind that while this method is useful for few species, you will have to hit the search button each time you change the species name to download it, which can be not pratical for large datasets. </p>
+<p align="justify"> This panel allows the user to enter a taxa name (at the moment the binomial species name, ie: Genus species format). This panel is quite straightforward as you have only to write the species name and hit the button confirm next to hit. Keep in mind that while this method is useful for few species, you will have to hit the search button each time you change the species name to download it, which can be not pratical for large datasets. At the moment this panel will allow you to donwnload the sequences corresponding to the name entered. As such, in theory, any order/family/genus name will be considered as correct an be downloaded, but not separated, meaning that the user should always enter the lowest taxonomical rank for an organism. As an example, if one write "Canis lupus" (grey wolf), all subspecies will also be downloaded </p>
 
 #### 3.1.2 Select taxa list
 
