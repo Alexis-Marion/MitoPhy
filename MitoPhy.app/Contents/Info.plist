@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>MitoPhy</string>
+	<key>CFBundleExecutable</key>
+	<string>MitoPhy</string>
+	<key>CFBundleIconFile</key>
+	<string>generated-d6abce073a3e330c56615214b023ae93dfa5d91eb244a9303250fc84cd9a6b74.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>MitoPhy</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>MitoPhy</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>
