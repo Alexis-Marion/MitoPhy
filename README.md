@@ -183,7 +183,7 @@ In this panel, all .gb files in the operating directory will be transformed into
 - Mandatory step
 ```
 
-In this panel, in each subdirectory defined in [4.1.3](#413-Turn-into-fasta), all sequences will be transferred to the new output directory by genes. Here three options are present :
+In this panel, in each subdirectory defined in [4.1.3](#413-Turn-into-fasta), all sequences will be transferred to the new output directory by genes. Three outcomes are possible:
 
 • You have **no** sequences in the directory, as such a placeholder sequence, containing only "N" is created and moved.
 
@@ -199,7 +199,7 @@ In this panel, in each subdirectory defined in [4.1.3](#413-Turn-into-fasta), al
 - Mandatory step
 ```
 
-Similar to [3.1.1](#311-Write-taxa-name), this panel allows the user to select an operating directory for the rest of his data manipulation. The structure here consists of the main directory with a gene-related subdirectory. 
+Similar to [3.1.1](#311-Write-taxa-name), this panel allows the user to select an operating directory for the rest of the data manipulation. The structure here consists of the main directory with a gene-related subdirectory. 
 
 #### 4.2.2 Align
 
